@@ -1,0 +1,15 @@
+<h2>#{@book.title}</h2>
+<dl id='author_block'>
+    <?r @book.authors.each do | author | ?>
+        <dt>
+        #{author.first_name} #{author.last_name}
+        </dt>
+    <?r end ?>
+</dl>
+<table id='tune_block' border="1">
+    <?r @book.book_tune_tunings.each do | btt | ?>
+        <tr>
+            <td>#{btt.tuning.tuning}</td> <td><a href="#{r(:view_tune)}/#{btt.tune[:id]}">#{btt.tune.title}</a></td>
+        </tr>
+    <?r end ?>
+</table>

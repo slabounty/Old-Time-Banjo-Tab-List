@@ -1,0 +1,9 @@
+<dl id='tune_block'>
+    <?r @tunes.each do | tune | ?>
+        <dt>
+            <a href="#{r(:view_tune)}/#{tune[:id]}">#{tune.title}</a>
+        </dt>
+    <?r end ?>
+</dl>
+
+

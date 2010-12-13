@@ -1,0 +1,69 @@
+
+/* Link styling */
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: color: red;}
+
+/* Header CSS */
+#header {
+    background:#9DA9EE;
+    color: white;
+    margin-bottom: 0;
+    padding: 0.25em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+#nav {
+    background:#9DA9EE;
+    color: black;
+    padding: 1.25em;
+}
+
+/* Footer CSS */
+#footer {
+    background:#9DA9EE;
+    color: black;
+}
+
+#request_block {
+    margin: 2em 0;
+    padding: 0;
+    width: 30em;
+}
+
+#request_block dt {
+    background: #959289;
+    padding: .5em;
+}
+
+#request_block dd {
+    background: #DBD8D8;
+    margin: 0 0 0 0;
+    padding: 1em .5em;
+}
+
+#request_block_footer h6 {
+    color: red;
+    margin: 0 0 0 0;
+    padding: 0 0;
+}
+
+#comment_block {
+    margin: 2em 0;
+    padding: 0;
+    width: 30em;
+}
+
+#comment_block dt {
+    background: #959289;
+    padding: .5em;
+}
+
+#comment_block dd {
+    background: #DBD8D8;
+    margin: 0 0 1em 0;
+    padding: 1em .5em;
+}

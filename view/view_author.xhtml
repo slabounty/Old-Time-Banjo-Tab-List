@@ -1,0 +1,9 @@
+<h2>Books by #{@author.first_name} #{@author.last_name}</h2>
+<dl id='book_block'>
+    <?r @author.books.each do | book | ?>
+        <dt>
+            <a href="#{r(:view_book)}/#{book[:id]}">#{book.title}</a>
+        </dt>
+    <?r end ?>
+</dl>
+
