@@ -7,4 +7,5 @@ require 'sequel'
 Sequel.connect(ENV['DATABASE_URL'] || 'sqlite://banjotab.sqlite')
 
 # Here go your requires for models:
-require_relative 'models'
+# require_relative 'models'
+require './model/models'
