@@ -1,0 +1,9 @@
+<dl id='tuning_block'>
+    <?r @tunings.each do | tuning | ?>
+        <dt>
+            <a href="#{r(:view_tuning)}/#{tuning[:id]}">#{tuning.tuning}</a>
+        </dt>
+    <?r end ?>
+</dl>
+
+

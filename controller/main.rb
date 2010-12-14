@@ -38,4 +38,14 @@ class MainController < Controller
         @author = Author[author_id]
     end
 
+    def view_tunings
+        @title = "View Tunings!"
+        @tunings = Tuning.select.all
+    end
+
+    def view_tuning(tuning_id)
+        @title = "View Tuning!"
+        @tuning = Tuning[tuning_id]
+    end
+
 end
