@@ -1,0 +1,8 @@
+Generate the data base:
+    rm banjotab.sqlite
+    sequel -m dbMigration sqlite://banjotab.sqlite
+    ruby BanjoBook.rb source_file.csv tunes_file.csv
+
+Reload the data base:
+    heroku db:push sqlite://banjotab.sqlite
+    heroku restart

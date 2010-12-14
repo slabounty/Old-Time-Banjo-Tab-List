@@ -3,8 +3,12 @@ require 'sequel'
 
 require './model/init'
 
+source_file = ARGV[0]
+tunes_file  = ARGV[1]
+
+puts "sources = #{source_file} tunes = #{tunes_file}"
 all_books = {}
-CSV.foreach("BanjoSource.csv", :headers => true) do |book_csv|
+CSV.foreach(source_file, :headers => true) do |book_csv|
     # puts "Title: #{book_csv["Title"]} Author: #{book_csv["Author_Fname"]} #{book_csv["Author_Surname"]}"
     title = book_csv["Title"]
     date = book_csv["Date"]
@@ -24,7 +28,7 @@ CSV.foreach("BanjoSource.csv", :headers => true) do |book_csv|
     end
 end
 
-CSV.foreach("BanjoTunes.csv", :headers => true) do |tune_csv|
+CSV.foreach(tunes_file, :headers => true) do |tune_csv|
     book_id = tune_csv["Book ID"]
     citation = tune_csv["Citation"]
     page = tune_csv["Page"]
