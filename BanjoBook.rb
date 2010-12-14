@@ -21,11 +21,7 @@ CSV.foreach(source_file, :headers => true) do |book_csv|
 
     first_name = book_csv["Author_Fname"]
     last_name = book_csv["Author_Surname"]
-    if author = Author.find(:first_name => first_name, :last_name => last_name)
-        book.add_author(author)
-    else
-        book.add_author(Author.create(:first_name => first_name, :last_name => last_name))
-    end
+    book.add_author(Author.find_or_create(:first_name => first_name, :last_name => last_name))
 end
 
 CSV.foreach(tunes_file, :headers => true) do |tune_csv|
@@ -37,11 +33,8 @@ CSV.foreach(tunes_file, :headers => true) do |tune_csv|
     book = all_books[citation]
 
     if book
-        tune = Tune.find(:title => title)
-        tune = Tune.create(:title => title)  if !tune
-
-        tuning = Tuning.find(:tuning => tuning_string)
-        tuning = Tuning.create(:tuning => tuning_string) if !tuning
+        tune = Tune.find_or_create(:title => title)
+        tuning = Tuning.find_or_create(:tuning => tuning_string)
 
         all_books[citation].add_book_tune_tuning(:tune => tune, :tuning => tuning, :page => page)
     else
