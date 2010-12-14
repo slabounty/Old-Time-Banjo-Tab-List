@@ -1,7 +1,7 @@
 <dl id='author_block'>
     <?r @authors.each do | author | ?>
         <dt>
-        <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
+            <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
         </dt>
     <?r end ?>
 </dl>
