@@ -6,3 +6,10 @@ Generate the data base:
 Reload the data base:
     heroku db:push sqlite://banjotab.sqlite
     heroku restart
+
+Git commands (typical)
+    git status # to find out what needs to be "add"ed.
+    git add file_1 file_2 # from the status
+    git commit -m 'note about why files were changed'
+    git push origin master # pushes to github
+    git push heroku master # pushes to heroku
