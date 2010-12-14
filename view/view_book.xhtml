@@ -2,7 +2,7 @@
 <dl id='author_block'>
     <?r @book.authors.each do | author | ?>
         <dt>
-        #{author.first_name} #{author.last_name}
+            <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
         </dt>
     <?r end ?>
 </dl>
