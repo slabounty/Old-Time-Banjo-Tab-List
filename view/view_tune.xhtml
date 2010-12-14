@@ -3,7 +3,12 @@
     <?r @tune.book_tune_tunings.each do | btt | ?>
         <tr>
             <td>#{btt.tuning.tuning} </td>
-            <td><a href="#{r(:view_book)}/#{btt.book[:id]}">#{btt.book.title}</a> by #{btt.book.authors[0].first_name} #{btt.book.authors[0].last_name}</td>
+            <td><a href="#{r(:view_book)}/#{btt.book[:id]}">#{btt.book.title}</a></td> 
+            <td>
+                <?r btt.book.authors.each do | author | ?>
+                        <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
+                <?r end ?>
+            </td>
         </tr>
     <?r end ?>
 </table>
