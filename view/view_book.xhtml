@@ -7,9 +7,12 @@
     <?r end ?>
 </dl>
 <table id='tune_block' border="1">
+    <tr><th>Tuning</th><th>Tune</th><th>Page</th></tr>
     <?r @book.book_tune_tunings.each do | btt | ?>
         <tr>
-            <td>#{btt.tuning.tuning}</td> <td><a href="#{r(:view_tune)}/#{btt.tune[:id]}">#{btt.tune.title}</a></td>
+            <td>#{btt.tuning.tuning}</td> 
+            <td><a href="#{r(:view_tune)}/#{btt.tune[:id]}">#{btt.tune.title}</a></td>
+            <td>#{btt.page}</td> 
         </tr>
     <?r end ?>
 </table>
