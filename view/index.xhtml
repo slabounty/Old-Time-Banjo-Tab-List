@@ -1,7 +1,10 @@
 <dl id='book_block'>
     <?r @books.each do | book | ?>
         <dt>
-            <a href="#{r(:view_book)}/#{book[:id]}">#{book.title}</a> by #{book.authors[0].first_name} #{book.authors[0].last_name}
+        <a href="#{r(:view_book)}/#{book[:id]}">#{book.title}</a> by 
+            <?r book.authors.each do | author | ?>
+                <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
+            <?r end ?>
         </dt>
     <?r end ?>
 </dl>
