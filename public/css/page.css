@@ -5,11 +5,47 @@ A:visited {text-decoration: none}
 A:active {text-decoration: none}
 A:hover {text-decoration: color: red;}
 
+/* List styling */
+ul { 
+    list-style-type:none; 
+    padding:0;
+    margin:0;
+}
+
+#tune_block ul { 
+    padding: 0
+    margin-top: 1em;
+}
+
+#tune_block li.first { 
+    background-color: #9DA9EE; 
+    padding-left: 2.0em;
+    padding-top: .50em;
+    padding-bottom: .50em;
+
+    -moz-border-radius: 1em  1em  0em  0em;
+    -webkit-border-radius: 1em  1em  0em  0em;
+    border-radius: 1em  1em  0em  0em;
+}
+
+#tune_block li.even { 
+    background-color: #9DA9EE; 
+    padding-left: 2.0em;
+    padding-top: .50em;
+    padding-bottom: .50em;
+}
+#tune_block li.odd { 
+    background-color: #DDD; 
+    padding-left: 2.0em;
+    padding-top: .50em;
+    padding-bottom: .50em;
+}
+
 /* Header CSS */
 #header {
     background:#9DA9EE;
     color: white;
-    margin-bottom: 0;
+    margin-bottom: .25em;
     padding: 0.25em;
     -moz-border-radius: 1em;
     -webkit-border-radius: 1em;
@@ -19,7 +55,7 @@ A:hover {text-decoration: color: red;}
 #nav {
     background:#9DA9EE;
     color: black;
-    padding: 1.25em;
+    padding: 1.25em 2.0em;
 }
 
 /* Footer CSS */
