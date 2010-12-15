@@ -1,9 +1,11 @@
-<dl id='author_block'>
-    <?r @authors.each do | author | ?>
-        <dt>
-            <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
-        </dt>
+<ul id='author_block'>
+    <?r @authors.each_with_index do | author, i | ?>
+        <?r if i == 0 ?>
+            <li class="first"> <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a> </li>
+        <?r else ?>
+            <li class=#{((i%2)==0) ? "\"even\"" : "\"odd\""}> <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a> </li>
+        <?r end ?>
     <?r end ?>
-</dl>
+</ul>
 
 
