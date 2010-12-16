@@ -17,12 +17,12 @@ dd, dt {
     margin:0;
 }
 
-dl.book_block, ul.tuning_block, ul.author_block, ul.tune_block { 
+dl.author_book_block, dl.book_block, ul.tuning_block, ul.author_block, ul.tune_block { 
     padding: 0
     margin-top: 1em;
 }
 
-.book_block dd.first, .tuning_block li.first, .author_block li.first, .tune_block li.first { 
+.author_book_block dt.first, .book_block dd.first, .tuning_block li.first, .author_block li.first, .tune_block li.first { 
     background-color: #9DA9EE; 
     padding-left: 2.0em;
     padding-top: .50em;
@@ -33,14 +33,14 @@ dl.book_block, ul.tuning_block, ul.author_block, ul.tune_block {
     border-radius: 1em  1em  0em  0em;
 }
 
-.book_block dd.even, .book_block dt.even, .tuning_block li.even, .author_block li.even, .tune_block li.even { 
+.author_book_block dt.even, .book_block dt.even, .tuning_block li.even, .author_block li.even, .tune_block li.even { 
     background-color: #9DA9EE; 
     padding-left: 2.0em;
     padding-top: .50em;
     padding-bottom: .50em;
 }
 
-.book_block dd.odd, .book_block dt.odd, .tuning_block li.odd, .author_block li.odd, .tune_block li.odd { 
+.author_book_block dt.odd, .book_block dd.odd, .book_block dt.odd, .tuning_block li.odd, .author_block li.odd, .tune_block li.odd { 
     background-color: #DDD; 
     padding-left: 2.0em;
     padding-top: .50em;
