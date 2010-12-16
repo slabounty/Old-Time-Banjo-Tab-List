@@ -1,4 +1,4 @@
-<ul id='author_block'>
+<ul class='author_block'>
     <?r @authors.each_with_index do | author, i | ?>
         <?r if i == 0 ?>
             <li class="first"> <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a> </li>

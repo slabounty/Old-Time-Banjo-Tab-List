@@ -1,11 +1,13 @@
-<dl id='book_block'>
-    <?r @books.each do | book | ?>
-        <dt>
-        <a href="#{r(:view_book)}/#{book[:id]}">#{book.title}</a> by 
-            <?r book.authors.each do | author | ?>
-                <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
-            <?r end ?>
-        </dt>
+<dl class='book_block'>
+    <?r @books.each_with_index do | book, i | ?>
+        <?r if i == 0 ?>
+            <dd class="first"> <a href="#{r(:view_book)}/#{book[:id]}">#{book.title}</a></dd>
+        <?r else ?>
+            <dd class=#{((i%2)==0) ? "\"even\"" : "\"odd\""}> <a href="#{r(:view_book)}/#{book[:id]}">#{book.title}</a></dd>
+        <?r end ?>
+
+        <?r book.authors.each do | author| ?>
+            <dt class=#{((i%2)==0) ? "\"even\"" : "\"odd\""}><a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a></dt>
+        <?r end ?>
     <?r end ?>
 </dl>
-

@@ -6,18 +6,23 @@ A:active {text-decoration: none}
 A:hover {text-decoration: color: red;}
 
 /* List styling */
-ul { 
+dl, ul { 
     list-style-type:none; 
     padding:0;
     margin:0;
 }
 
-#author_block, #tune_block ul { 
+dd, dt {
+    padding:0;
+    margin:0;
+}
+
+dl.book_block, ul.tuning_block, ul.author_block, ul.tune_block { 
     padding: 0
     margin-top: 1em;
 }
 
-#author_block li.first, #tune_block li.first { 
+.book_block dd.first, .tuning_block li.first, .author_block li.first, .tune_block li.first { 
     background-color: #9DA9EE; 
     padding-left: 2.0em;
     padding-top: .50em;
@@ -28,50 +33,19 @@ ul {
     border-radius: 1em  1em  0em  0em;
 }
 
-#author_block li.even, #tune_block li.even { 
+.book_block dd.even, .book_block dt.even, .tuning_block li.even, .author_block li.even, .tune_block li.even { 
     background-color: #9DA9EE; 
     padding-left: 2.0em;
     padding-top: .50em;
     padding-bottom: .50em;
 }
 
-#author_block li.odd, #tune_block li.odd { 
+.book_block dd.odd, .book_block dt.odd, .tuning_block li.odd, .author_block li.odd, .tune_block li.odd { 
     background-color: #DDD; 
     padding-left: 2.0em;
     padding-top: .50em;
     padding-bottom: .50em;
 }
-
-/*
-#author_block ul { 
-    padding: 0
-    margin-top: 1em;
-}
-
-#author_block li.first { 
-    background-color: #9DA9EE; 
-    padding-left: 2.0em;
-    padding-top: .50em;
-    padding-bottom: .50em;
-
-    -moz-border-radius: 1em  1em  0em  0em;
-    -webkit-border-radius: 1em  1em  0em  0em;
-    border-radius: 1em  1em  0em  0em;
-}
-
-#author_block li.even { 
-    background-color: #9DA9EE; 
-    padding-left: 2.0em;
-    padding-top: .50em;
-    padding-bottom: .50em;
-}
-#author_block li.odd { 
-    background-color: #DDD; 
-    padding-left: 2.0em;
-    padding-top: .50em;
-    padding-bottom: .50em;
-}
-*/
 
 /* Header CSS */
 #header {
