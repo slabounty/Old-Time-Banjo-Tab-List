@@ -1,2 +1,4 @@
+*.xls
+banjotab.sqlite.original
 !banjotab.sqlite
 BookTuneTuning.rb
