@@ -1,0 +1,25 @@
+namespace :db do
+    require 'rubygems'
+    require 'sequel'
+    Sequel.extension :migration
+
+    task :clean do
+        rm 'banjotab.sqlite'
+    end
+
+    task :build => :migrate do
+        ruby "BanjoBook.rb BanjoSource.csv BanjoTunes.csv"
+        ruby "BanjoBook.rb ParkerSource.csv ClawhammerTunes-Parker.csv"
+    end
+
+    task :migrate do
+        m = Sequel::Migrator
+        db = Sequel.connect(ENV['DATABASE_URL'] || 'sqlite://banjotab.sqlite')
+        dir = "dbMigration"
+
+        target = ENV['TARGET'] ? ENV['TARGET'].to_i : nil
+        current = ENV['CURRENT'] ? ENV['CURRENT'].to_i : nil
+
+        m.run(db, dir, :target => target, :current => current)
+    end
+end
