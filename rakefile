@@ -10,6 +10,7 @@ namespace :db do
     task :build => :migrate do
         ruby "BanjoBook.rb BanjoSource.csv BanjoTunes.csv"
         ruby "BanjoBook.rb ParkerSource.csv ClawhammerTunes-Parker.csv"
+        ruby "BanjoBook.rb LuncefordSource.csv DropThumbTunes.csv"
     end
 
     task :migrate do
@@ -22,4 +23,5 @@ namespace :db do
 
         m.run(db, dir, :target => target, :current => current)
     end
+
 end
