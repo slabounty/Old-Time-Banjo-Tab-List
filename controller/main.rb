@@ -10,7 +10,7 @@ class MainController < Controller
     # The index action is called automatically when no other action is specified.
     def index
         @title = "Welcome to Banjo Tab!"
-        @books = Book.select.all
+        @books = Book.select.order(:title).all
     end
 
     def view_book(book_id)
@@ -20,7 +20,7 @@ class MainController < Controller
 
     def view_tunes
         @title = "View Tunes!"
-        @tunes = Tune.select.all
+        @tunes = Tune.select.order(:title).all
     end
 
     def view_tune(tune_id)
@@ -30,7 +30,7 @@ class MainController < Controller
 
     def view_authors
         @title = "View Authors!"
-        @authors = Author.select.all
+        @authors = Author.select.order(:last_name).all
     end
 
     def view_author(author_id)
@@ -40,7 +40,7 @@ class MainController < Controller
 
     def view_tunings
         @title = "View Tunings!"
-        @tunings = Tuning.select.all
+        @tunings = Tuning.select.order(:tuning).all
     end
 
     def view_tuning(tuning_id)
