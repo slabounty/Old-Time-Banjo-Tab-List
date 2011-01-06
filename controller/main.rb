@@ -36,6 +36,7 @@ class MainController < Controller
     def view_author(author_id)
         @title = "View Author!"
         @author = Author[author_id]
+        puts "Web Site = :#{@author.web_site}:"
     end
 
     def view_tunings

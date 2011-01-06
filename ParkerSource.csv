@@ -1,2 +1,2 @@
-"Book ID","Title","Author_Surname","Author_Fname","Date","Publisher","Intl. Std. Book No.","Address","Citation"
-"Stephen_1","Clawhammer Banjo String Band Favorites","Parker","Stephen",2010,"Steve Paker Music","ISBN Unknown","Los Angeles, CA","Parker, 2010"
+"Book ID","Title","Author_Surname","Author_Fname","Date","Publisher","Intl. Std. Book No.","Address","Citation","Web Site"
+"Stephen_1","Clawhammer Banjo String Band Favorites","Parker","Stephen",2010,"Steve Paker Music","ISBN Unknown","Los Angeles, CA","Parker, 2010","http://www.ragtime-resource.com/"

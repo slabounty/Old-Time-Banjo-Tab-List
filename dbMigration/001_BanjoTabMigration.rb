@@ -20,6 +20,7 @@ Class.new(Sequel::Migration) do
             primary_key :id
             String :first_name 
             String :last_name
+            String :web_site
         end
 
         create_table(:authors_books) do

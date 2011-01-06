@@ -1,24 +1,24 @@
-"Book ID","Title","Author_Surname","Author_Fname","Date","Publisher","Intl. Std. Book No.","Address","Citation"
-"Art_1","The Art of the Mountain Banjo","Rosenbaum","Art",1981,"Mel Bay Publications, Inc.","ISBN 0-7866-3378-6","#4 Industrial Drive, Pacific, MO","Rosenbaum, 1981"
-"Art_2","Old-Time Mountain Banjo","Rosenbaum","Art",1968,"Oak Publications","ISBN 0-8256-0116-9","New York/London","Rosenbaum, 1968"
-"Bob","Fiddle Tunes for Clawhammer Banjo","Carlin","Bob",1983,"Centerstream Publications","ISBN 0-89898-227-8","PO Box 5052, Fullerton, CA 92635","Carlin, 1983"
-"Brad_1","Round Peak Style","Leftwich","Brad",1999,"Mel Bay Publications, Inc.","ISBN 07866-2902-9","#4 Industrial Drive, Pacific, MO","Leftwich, 1999"
-"Dan_1","Buzzard Banjo Clawhammer Style","Levenson","Dan",2000,"Mel Bay Publications, Inc.","ISBN 0-7866-5815-0","#4 Industrial Drive, Pacific, MO","Levenson, 2000"
-"Dan_2","Clawhammer Banjo From Scratch","Levenson","Dan",2003,"Mel Bay Publications, Inc.","ISBN 0-7866-7133-5","#4 Industrial Drive, Pacific, MO","Levenson, 2003"
-"David","The Banjo Picker's Fakebook","Brody","David",1985,"Oak Publications","ISBN 0-8256-0271-8","New York/London","Brody, 1985"
-"Dwight","http://www.dwightdiller.com/tab.html","Diller","Dwight","Web",,,,"Diller, Web"
-"John","Old Time Fiddle Tunes for Banjo","Burke","John",1968,"Acorn Music Press","ISBN 0-8256-2801-6","33 W. 60th St., New York, NY 10023","Burke, 1968"
-"Ken_1","Melodic Clawhammer Banjo","Perlman","Ken",1979,"Oak Publications","ISBN 0-8256-0226-2","New York/London","Perlman, 1979"
-"Ken_2","Clawhammer Style Banjo","Perlman","Ken",1989,"Mel Bay Publications, Inc.","ISBN 0-931759-33-1","#4 Industrial Drive, Pacific, MO","Perlman, 1989"
-"Ken_3","Devil in the Kitchen: Companion Tablature Book","Perlman","Ken","NA","Marimac Recordings, Inc.","NA","Ken Perlman, 130 High St., Leominster MA, 01453","Perlman, NA"
-"Ken_4","Basic Clawhammer Banjo","Perlman","Ken",1996,"Mel Bay Publications, Inc.","ISBN 0-7866-2374-8","#4 Industrial Drive, Pacific, MO","Perlman, 1996"
-"Ken_5","Everything You Ever Wanted to Know About Clawhammer Banjo","Perlman","Ken",2004,"Mel Bay Publications, Inc.","ISBN 0-7866-5890-8","#4 Industrial Drive, Pacific, MO","Perlman, 2004"
-"Larry","How to Play the Old Time Clawhammer","Peterson","Larry","NA","NA ","NA","8214 Bowie Dr., Omaha NE 68114","Peterson, NA"
-"Mel_Bay_1","Mel Bay's Complete Clawhammer Banjo Book","Schmitz/Slater","Lisa/Alec",1994,"Mel Bay Publications, Inc.","ISBN 0-7866-0049-7","#4 Industrial Drive, Pacific, MO","Schmitz/Slater, 1994"
-"Mel_Bay_2","Mel Bay's Frailing the 5-String Banjo","Muller/Koehler","Eric/Barbara",1973,"Mel Bay Publications, Inc.","ISBN 0-87166-878-5","#4 Industrial Drive, Pacific, MO","Muller/Koehler, 1973"
-"Miles","Clawhammer Banjo","Krassen","Miles",1974,"Oak Publications","ISBN 0-8256-0151-7","New York/London","Krassen, 1974"
-"Pete","How to Play the 5-String Banjo","Seeger","Pete",1962,"Self-Published","Sold where you can find it; no copyright","Beacon, NY","Seeger, 1962"
-"Tim","How to Play Banjo","Jumper","Tim",1977,"Acorn Music Press","ISBN 0-8256-2352-9",,"Jumper, 1977"
-"Tim_2","The Banjo Player's Songbook","Jumper","Tim",1984,"Oak Publications","ISBN 0-8256-0297-1","New York/London","Jumper, 1984"
-"Wayne_1","Clawhammer Banjo for the Complete Ignoramus!","Erbsen","Wayne ",2004,"Native Ground Music","ISBN 1-883206-43-X","109 Bell Road, Asheville, NC 28805","Erbsen, 2004"
-"Wayne_2","Southern Mountain Banjo","Erbsen","Wayne ",1995,"Mel Bay Publications, Inc.","ISBN 0-7866-0419-0","#4 Industrial Drive, Pacific, MO","Erbsen, 1995"
+"Book ID","Title","Author_Surname","Author_Fname","Date","Publisher","Intl. Std. Book No.","Address","Citation","Web Site"
+"Art_1","The Art of the Mountain Banjo","Rosenbaum","Art",1981,"Mel Bay Publications, Inc.","ISBN 0-7866-3378-6","#4 Industrial Drive, Pacific, MO","Rosenbaum, 1981","http://artrosenbaum.org/"
+"Art_2","Old-Time Mountain Banjo","Rosenbaum","Art",1968,"Oak Publications","ISBN 0-8256-0116-9","New York/London","Rosenbaum, 1968","http://artrosenbaum.org/"
+"Bob","Fiddle Tunes for Clawhammer Banjo","Carlin","Bob",1983,"Centerstream Publications","ISBN 0-89898-227-8","PO Box 5052, Fullerton, CA 92635","Carlin, 1983","http://www.bobcarlinmusic.com/"
+"Brad_1","Round Peak Style","Leftwich","Brad",1999,"Mel Bay Publications, Inc.","ISBN 07866-2902-9","#4 Industrial Drive, Pacific, MO","Leftwich, 1999","http://www.bradleftwich.net/"
+"Dan_1","Buzzard Banjo Clawhammer Style","Levenson","Dan",2000,"Mel Bay Publications, Inc.","ISBN 0-7866-5815-0","#4 Industrial Drive, Pacific, MO","Levenson, 2000","http://clawdan.com/"
+"Dan_2","Clawhammer Banjo From Scratch","Levenson","Dan",2003,"Mel Bay Publications, Inc.","ISBN 0-7866-7133-5","#4 Industrial Drive, Pacific, MO","Levenson, 2003","http://clawdan.com/"
+"David","The Banjo Picker's Fakebook","Brody","David",1985,"Oak Publications","ISBN 0-8256-0271-8","New York/London","Brody, 1985",
+"Dwight","http://www.dwightdiller.com/tab.html","Diller","Dwight","Web",,,,"Diller, Web","http://www.dwightdiller.com/tab.html"
+"John","Old Time Fiddle Tunes for Banjo","Burke","John",1968,"Acorn Music Press","ISBN 0-8256-2801-6","33 W. 60th St., New York, NY 10023","Burke, 1968",
+"Ken_1","Melodic Clawhammer Banjo","Perlman","Ken",1979,"Oak Publications","ISBN 0-8256-0226-2","New York/London","Perlman, 1979","http://www.kenperlman.com/"
+"Ken_2","Clawhammer Style Banjo","Perlman","Ken",1989,"Mel Bay Publications, Inc.","ISBN 0-931759-33-1","#4 Industrial Drive, Pacific, MO","Perlman, 1989","http://www.kenperlman.com/"
+"Ken_3","Devil in the Kitchen: Companion Tablature Book","Perlman","Ken","NA","Marimac Recordings, Inc.","NA","Ken Perlman, 130 High St., Leominster MA, 01453","Perlman, NA","http://www.kenperlman.com/"
+"Ken_4","Basic Clawhammer Banjo","Perlman","Ken",1996,"Mel Bay Publications, Inc.","ISBN 0-7866-2374-8","#4 Industrial Drive, Pacific, MO","Perlman, 1996","http://www.kenperlman.com/"
+"Ken_5","Everything You Ever Wanted to Know About Clawhammer Banjo","Perlman","Ken",2004,"Mel Bay Publications, Inc.","ISBN 0-7866-5890-8","#4 Industrial Drive, Pacific, MO","Perlman, 2004","http://www.kenperlman.com/"
+"Larry","How to Play the Old Time Clawhammer","Peterson","Larry","NA","NA ","NA","8214 Bowie Dr., Omaha NE 68114","Peterson, NA",
+"Mel_Bay_1","Mel Bay's Complete Clawhammer Banjo Book","Schmitz/Slater","Lisa/Alec",1994,"Mel Bay Publications, Inc.","ISBN 0-7866-0049-7","#4 Industrial Drive, Pacific, MO","Schmitz/Slater, 1994",
+"Mel_Bay_2","Mel Bay's Frailing the 5-String Banjo","Muller/Koehler","Eric/Barbara",1973,"Mel Bay Publications, Inc.","ISBN 0-87166-878-5","#4 Industrial Drive, Pacific, MO","Muller/Koehler, 1973",
+"Miles","Clawhammer Banjo","Krassen","Miles",1974,"Oak Publications","ISBN 0-8256-0151-7","New York/London","Krassen, 1974",
+"Pete","How to Play the 5-String Banjo","Seeger","Pete",1962,"Self-Published","Sold where you can find it; no copyright","Beacon, NY","Seeger, 1962",
+"Tim","How to Play Banjo","Jumper","Tim",1977,"Acorn Music Press","ISBN 0-8256-2352-9",,"Jumper, 1977",
+"Tim_2","The Banjo Player's Songbook","Jumper","Tim",1984,"Oak Publications","ISBN 0-8256-0297-1","New York/London","Jumper, 1984",
+"Wayne_1","Clawhammer Banjo for the Complete Ignoramus!","Erbsen","Wayne ",2004,"Native Ground Music","ISBN 1-883206-43-X","109 Bell Road, Asheville, NC 28805","Erbsen, 2004","http://www.nativeground.com/wayne-erbsen-musician.html"
+"Wayne_2","Southern Mountain Banjo","Erbsen","Wayne ",1995,"Mel Bay Publications, Inc.","ISBN 0-7866-0419-0","#4 Industrial Drive, Pacific, MO","Erbsen, 1995","http://www.nativeground.com/wayne-erbsen-musician.html"

@@ -21,7 +21,8 @@ CSV.foreach(source_file, :headers => true) do |book_csv|
 
     first_name = book_csv["Author_Fname"]
     last_name = book_csv["Author_Surname"]
-    book.add_author(Author.find_or_create(:first_name => first_name, :last_name => last_name))
+    web_site = book_csv["Web Site"]
+    book.add_author(Author.find_or_create(:first_name => first_name, :last_name => last_name, :web_site => web_site))
 end
 
 all_books.each do |b|

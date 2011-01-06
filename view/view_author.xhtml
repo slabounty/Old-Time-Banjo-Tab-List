@@ -1,4 +1,7 @@
 <h2>Books by #{@author.first_name} #{@author.last_name}</h2>
+<?r if @author.web_site != nil ?>
+<h3>Web Site: <a href="#{@author.web_site}">#{@author.web_site}</a></h3>
+<?r end ?>
 <dl class='author_book_block'>
     <?r @author.books.each_with_index do | book, i | ?>
         <?r if i == 0 ?>
