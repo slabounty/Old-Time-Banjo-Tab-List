@@ -16,6 +16,7 @@ namespace :db do
         ruby "BanjoBook.rb LyleKSource.csv LyleKTunes.csv"
         ruby "BanjoBook.rb RSBSource.csv RSBTunes.csv"
         ruby "BanjoBook.rb WildJimboSource.csv WildJimboTunes.csv"
+        ruby "BanjoBook.rb DanLSource.csv DanLTunes.csv"
     end
 
     task :migrate do
