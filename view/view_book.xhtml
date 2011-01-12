@@ -2,8 +2,13 @@
 <dl id='author_block'>
     <?r @book.authors.each do | author | ?>
         <dt>
-            <a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a>
+            <h3><a href="#{r(:view_author)}/#{author[:id]}">#{author.first_name} #{author.last_name}</a></h3>
         </dt>
+        <?r if author.web_site != nil ?>
+        <dd>
+                <h3>Web Site: <a href="#{author.web_site}">#{author.web_site}</a></h3>
+        </dd>
+        <?r end ?>
     <?r end ?>
 </dl>
 <table id='tune_block' border="1">
