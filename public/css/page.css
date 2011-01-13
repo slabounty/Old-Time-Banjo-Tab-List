@@ -5,6 +5,37 @@ A:visited {text-decoration: none}
 A:active {text-decoration: none}
 A:hover {text-decoration: color: red;}
 
+/* Header CSS */
+#header {
+    margin: 1em 0 .25em 0;
+    background:#9DA9EE;
+    color: white;
+    padding: 0.25em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+#nav {
+    background:#9DA9EE;
+    color: black;
+    padding: 1.25em 2.0em;
+}
+
+/* Footer CSS */
+#footer {
+    margin: 2em 0 0 0;
+    background:#9DA9EE;
+    color: black;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+#content {
+    margin: 1em 0 0 0;
+}
+
 /* List styling */
 dl, ul { 
     list-style-type:none; 
@@ -63,25 +94,3 @@ table.books_block {
     padding-bottom: .50em;
 }
 
-/* Header CSS */
-#header {
-    background:#9DA9EE;
-    color: white;
-    margin-bottom: .25em;
-    padding: 0.25em;
-    -moz-border-radius: 1em;
-    -webkit-border-radius: 1em;
-    border-radius: 1em;
-}
-
-#nav {
-    background:#9DA9EE;
-    color: black;
-    padding: 1.25em 2.0em;
-}
-
-/* Footer CSS */
-#footer {
-    background:#9DA9EE;
-    color: black;
-}
