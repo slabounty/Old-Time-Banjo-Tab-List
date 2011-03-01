@@ -3,6 +3,9 @@ Generate the data base:
     sequel -m dbMigration sqlite://banjotab.sqlite
     ruby BanjoBook.rb source_file.csv tunes_file.csv
 
+    or better use Rake
+    rake db:clean db:build
+  
 Reload the data base:
     heroku db:push sqlite://banjotab.sqlite
     heroku restart
@@ -11,5 +14,7 @@ Git commands (typical)
     git status # to find out what needs to be "add"ed.
     git add file_1 file_2 # from the status
     git commit -m 'note about why files were changed'
+    or (automatically stage files that have been modified)
+    git commit -a -m 'note about why files were changed'
     git push origin master # pushes to github
     git push heroku master # pushes to heroku
