@@ -9,6 +9,7 @@ namespace :db do
 
     task :build => :migrate do
         ruby "BanjoBook.rb MaryZSource.csv MaryZTunes.csv"
+        ruby "BanjoBook.rb BobFlesherSource.csv BobFlesherTunes.csv"
         ruby "BanjoBook.rb FestivalTunesSources.csv FestivalTunes.csv"
         ruby "BanjoBook.rb BanjoSource.csv BanjoTunes.csv"
         ruby "BanjoBook.rb ParkerSource.csv ClawhammerTunes-Parker.csv"
